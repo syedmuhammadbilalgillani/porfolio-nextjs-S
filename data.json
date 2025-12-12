@@ -146,137 +146,58 @@
   "portfolioData": {
     "portfolioItems": [
       {
-        "imgLink": "./images/portfolio/portfolio1.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "TensorFlow.js - Machine Learning in Browser",
-        "subTitle": "AI/ML / Web Development",
-        "link": "https://www.tensorflow.org/js",
+        "imgLink": "/images/projects/brckstn.png",
+        "imgLinkLg": "/images/projects/brckstn.png",
+        "title": "Real Estate Management System (Web Application)",
+        "subTitle": "Full Stack Development / React / Node.js",
+        "link": "https://brckstn.com",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
       },
       {
-        "imgLink": "./images/portfolio/portfolio2.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "Google Cloud Platform - Cloud Solutions",
-        "subTitle": "Cloud Computing / Full Stack",
-        "link": "https://cloud.google.com",
+        "imgLink": "/images/projects/dash.png",
+        "imgLinkLg": "/images/projects/dash.png",
+        "title": "AI-Powered Analytics Dashboard",
+        "subTitle": "AI/ML / Python / TensorFlow Next.js",
+        "link": "https://brckstn.com",
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
       },
       {
-        "imgLink": "./images/portfolio/portfolio3.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "Next.js - React Framework",
-        "subTitle": "Web Development / Full Stack",
-        "link": "https://nextjs.org",
+        "imgLink": "/images/projects/duralux.png",
+        "imgLinkLg": "/images/projects/duralux.png",
+        "title": "Duralux",
+        "subTitle": "Node.js / React / MongoDB",
+        "link": "https://brckstn.com",
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"
       },
       {
-        "imgLink": "./images/portfolio/portfolio4.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
-        "title": "OpenCV.js - Computer Vision",
-        "subTitle": "AI/ML / Image Processing",
-        "link": "https://docs.opencv.org/4.x/d5/d10/tutorial_js_root.html",
+        "imgLink": "/images/projects/finspire.png",
+        "imgLinkLg": "/images/projects/finspire.png",
+        "title": "FinSpire (AI-Powered Investment Advisor)",
+        "subTitle": "Full Stack Development / React / Node.js",
+        "link": "https://duralux.com",
         "effect": "fade-up",
         "duration": "500",
         "delay": "500"
       },
       {
-        "imgLink": "./images/portfolio/portfolio5.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
-        "title": "React Native - Mobile App Development",
-        "subTitle": "App Development / Cross-Platform",
-        "link": "https://reactnative.dev",
+        "imgLink": "/images/projects/laflora.png",
+        "imgLinkLg": "/images/projects/laflora.png",
+        "title": "LaFlora (E-Commerce Website)",
+        "subTitle": "Full Stack Development / React / Node.js",
+        "link": "https://laflora.com",
         "effect": "fade-up",
         "duration": "500",
         "delay": "600"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio6.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
-        "title": "Firebase - Backend as a Service",
-        "subTitle": "Cloud Computing / Full Stack",
-        "link": "https://firebase.google.com",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "700"
       }
     ]
   },
-  "blogData": {
-    "useFor": "blog",
-    "sliderSetting": {
-      "infinite": true,
-      "speed": 500,
-      "slidesToShow": 3,
-      "slidesToScroll": 1,
-      "arrows": false,
-      "responsive": [
-        {
-          "breakpoint": 991,
-          "settings": {
-            "slidesToShow": 2,
-            "autoplay": true
-          }
-        },
-        {
-          "breakpoint": 767,
-          "settings": {
-            "slidesToShow": 1,
-            "autoplay": true
-          }
-        }
-      ]
-    },
-    "informations": [
-      {
-        "imgLink": "./images/blog/blog1.jpg",
-        "designation": "Admin",
-        "date": "07-03-2023",
-        "title": "latest trends in Graphic design according to you?",
-        "href": "/blog/blog-details"
-      },
-      {
-        "imgLink": "./images/blog/blog2.jpg",
-        "designation": "Admin",
-        "date": "07-03-2023",
-        "title": "What are the latest trends in Graphic design according to you?",
-        "href": "/blog/blog-details"
-      },
-      {
-        "imgLink": "./images/blog/blog3.jpg",
-        "designation": "Admin",
-        "date": "07-03-2023",
-        "title": "Trends in Graphic design according to you?",
-        "href": "/blog/blog-details"
-      },
-      {
-        "imgLink": "./images/blog/blog1.jpg",
-        "designation": "Admin",
-        "date": "07-03-2023",
-        "title": "What are the latest trends in Graphic design according to you?",
-        "href": "/blog/blog-details"
-      },
-      {
-        "imgLink": "./images/blog/blog2.jpg",
-        "designation": "Admin",
-        "date": "07-03-2023",
-        "title": "The latest trends in Graphic design according to you?",
-        "href": "/blog/blog-details"
-      },
-      {
-        "imgLink": "./images/blog/blog3.jpg",
-        "designation": "Admin",
-        "date": "07-03-2023",
-        "title": "What are the latest trends in Graphic design according to you?",
-        "href": "/blog/blog-details"
-      }
-    ]
-  },
+
   "reviewData": {
     "useFor": "review",
     "sliderSetting": {

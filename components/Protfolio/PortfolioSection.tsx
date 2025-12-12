@@ -4,7 +4,6 @@ import './Portfolio.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import { useState } from 'react';
 import SinglePortfolio from './SinglePortfolio';
-import Modal from '../Modal/Modal';
 
 interface PortfolioItem {
   imgLink: string;
@@ -24,20 +23,6 @@ interface PortfolioSectionProps {
 }
 
 export default function PortfolioSection({ data }: PortfolioSectionProps) {
-  // Modal
-  const [modal, setModal] = useState(false);
-  const [tempData, setTempData] = useState<string[]>([]);
-
-  const getData = (imgLink: string, title: string, subTitle: string, link?: string) => {
-    const tempDataArray = [imgLink, title, subTitle, link || ''];
-    setTempData((item) => [1, ...tempDataArray] as string[]);
-    setModal(true);
-  };
-
-  const modalClose = () => {
-    setModal(false);
-  };
-
   // Load Items
   const { portfolioItems } = data;
   const itemsPerPage = 6;
@@ -61,42 +46,29 @@ export default function PortfolioSection({ data }: PortfolioSectionProps) {
   };
 
   return (
-    <>
-      <section id="portfolio">
-        <div className="st-height-b100 st-height-lg-b80"></div>
-        <SectionHeading title={'Portfolio'} />
-        <div className="container">
-          <div className="row">
-            {visibleItems.map((element, index) => (
-              <SinglePortfolio data={element} key={index} getData={getData} />
-            ))}
-            <div className="col-lg-12 text-center">
-              <div className="st-portfolio-btn">
-                {showLoadMore && (
-                  <button
-                    className="st-btn st-style1 st-color1"
-                    onClick={loadMoreItems}
-                  >
-                    Load more
-                  </button>
-                )}
-              </div>
+    <section id="portfolio">
+      <div className="st-height-b100 st-height-lg-b80"></div>
+      <SectionHeading title={'Portfolio'} />
+      <div className="container">
+        <div className="row">
+          {visibleItems.map((element, index) => (
+            <SinglePortfolio data={element} key={index} />
+          ))}
+          <div className="col-lg-12 text-center">
+            <div className="st-portfolio-btn">
+              {showLoadMore && (
+                <button
+                  className="st-btn st-style1 st-color1"
+                  onClick={loadMoreItems}
+                >
+                  Load more
+                </button>
+              )}
             </div>
           </div>
         </div>
-        <div className="st-height-b100 st-height-lg-b80"></div>
-      </section>
-      {modal === true ? (
-        <Modal
-          img={tempData[1]}
-          title={tempData[2]}
-          subTitle={tempData[3]}
-          link={tempData[4]}
-          modalClose={modalClose}
-        />
-      ) : (
-        ''
-      )}
-    </>
+      </div>
+      <div className="st-height-b100 st-height-lg-b80"></div>
+    </section>
   );
 }

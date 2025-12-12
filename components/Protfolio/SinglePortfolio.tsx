@@ -1,7 +1,5 @@
 'use client';
 
-import { Icon } from '@iconify/react';
-
 interface SinglePortfolioProps {
   data: {
     imgLink: string;
@@ -13,11 +11,10 @@ interface SinglePortfolioProps {
     duration?: string;
     delay?: string;
   };
-  getData: (imgLink: string, title: string, subTitle: string, link?: string) => void;
 }
 
-export default function SinglePortfolio({ data, getData }: SinglePortfolioProps) {
-  const { imgLink, imgLinkLg, title, subTitle, link, effect, duration, delay } = data;
+export default function SinglePortfolio({ data }: SinglePortfolioProps) {
+  const { imgLink, title, subTitle, link, effect, duration, delay } = data;
 
   return (
     <div
@@ -26,19 +23,26 @@ export default function SinglePortfolio({ data, getData }: SinglePortfolioProps)
       data-aos-duration={duration}
       data-aos-delay={delay}
     >
-      <div
-        className="st-portfolio-single st-style1"
-        onClick={() => getData(imgLinkLg, title, subTitle, link)}
-      >
+      <div className="st-portfolio-single st-style1">
         <div className="st-portfolio-item">
           <div className="st-portfolio st-zoom">
             <div className="st-portfolio-img st-zoom-in">
-              <img src={imgLink} alt="portfolio" />
+              <img src={imgLink} alt={title} />
             </div>
             <div className="st-portfolio-item-hover">
-              <Icon icon="mdi:plus-circle" />
               <h5>{title}</h5>
               <p>{subTitle}</p>
+              {/* {link && (
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="st-portfolio-link"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  View Project
+                </a>
+              )} */}
             </div>
           </div>
         </div>
