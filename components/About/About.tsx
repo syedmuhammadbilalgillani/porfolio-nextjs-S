@@ -32,7 +32,7 @@ export default function About({ data }: AboutProps) {
           <div className="col-lg-6 ">
             <div className="st-about-img-wrap">
               <div
-                className="st-about-img st-bg"
+                className="st-about-img st-bg rounded-5"
                 style={{ backgroundImage: `url(${imgLink})` }}
                 data-aos="fade-right"
                 data-aos-duration="800"

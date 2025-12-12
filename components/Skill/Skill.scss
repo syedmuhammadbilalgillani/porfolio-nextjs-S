@@ -40,8 +40,10 @@ background-color: $dark-color5;
 }
 
 .st-progressbar-in {
-background-color: $base-color1;
-height: 2px;
+  background-color: $base-color1;
+  height: 2px;
+  width: 0;
+  transition: width 1.5s ease-in-out;
 }
 
 @media screen and (max-width: 991px) {

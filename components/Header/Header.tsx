@@ -46,7 +46,11 @@ export default function Header() {
                   alt="Sarfaraz"
                   height={70}
                   width={70}
-                  style={{ height: "70px", width: "100%" }}
+                  style={{
+                    height: "70px",
+                    width: "100%",
+                    objectFit: "cover",
+                  }}
                 />
               </Link>
             </div>
@@ -54,9 +58,13 @@ export default function Header() {
               <div className="st-nav">
                 <ul
                   className="st-nav-list st-onepage-nav"
-                  style={{ display: `${mobileToggle ? "block" : "none"}` }}
+                  style={{
+                    display: `${mobileToggle ? "block" : "none"}`,
+                    // color: "white",
+                    cursor: "pointer",
+                  }}
                 >
-                  <li>
+                  <li className="">
                     <ScrollLink
                       to="home"
                       spy={true}
@@ -104,18 +112,7 @@ export default function Header() {
                       Portfolio
                     </ScrollLink>
                   </li>
-                  <li>
-                    <ScrollLink
-                      to="blog"
-                      spy={true}
-                      smooth={true}
-                      offset={-80}
-                      duration={500}
-                      onClick={() => setMobileToggle(false)}
-                    >
-                      Blog
-                    </ScrollLink>
-                  </li>
+
                   <li>
                     <ScrollLink
                       to="contact"

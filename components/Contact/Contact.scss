@@ -3,6 +3,22 @@
 #st-alert {
   font-size: 15px;
   font-weight: 300;
+  padding: 12px 20px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+
+  &.st-alert-success {
+    background-color: rgba(76, 175, 80, 0.1);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+    color: #4caf50;
+  }
+
+  &.st-alert-error {
+    background-color: rgba(244, 67, 54, 0.1);
+    border: 1px solid rgba(244, 67, 54, 0.3);
+    color: #f44336;
+  }
 }
 
 .st-contact-title {
@@ -151,10 +167,6 @@
         scale: 1.5;
       }
     }
-    .st-social-icon:hover {
-      color: $base-color1;
-      transition: all 0.4s ease;
-    }
     .st-icon-name {
       font-weight: 600;
       color: #fdfeff;
@@ -165,7 +177,12 @@
 
     &:hover,
     &.active {
+      border-color: $base-color1;
       padding-right: 15px;
+
+      .st-social-icon {
+        color: $base-color1;
+      }
 
       .st-icon-name {
         max-width: 140px;

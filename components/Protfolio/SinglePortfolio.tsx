@@ -8,15 +8,16 @@ interface SinglePortfolioProps {
     imgLinkLg: string;
     title: string;
     subTitle: string;
+    link?: string;
     effect?: string;
     duration?: string;
     delay?: string;
   };
-  getData: (imgLink: string, title: string, subTitle: string) => void;
+  getData: (imgLink: string, title: string, subTitle: string, link?: string) => void;
 }
 
 export default function SinglePortfolio({ data, getData }: SinglePortfolioProps) {
-  const { imgLink, imgLinkLg, title, subTitle, effect, duration, delay } = data;
+  const { imgLink, imgLinkLg, title, subTitle, link, effect, duration, delay } = data;
 
   return (
     <div
@@ -27,7 +28,7 @@ export default function SinglePortfolio({ data, getData }: SinglePortfolioProps)
     >
       <div
         className="st-portfolio-single st-style1"
-        onClick={() => getData(imgLinkLg, title, subTitle)}
+        onClick={() => getData(imgLinkLg, title, subTitle, link)}
       >
         <div className="st-portfolio-item">
           <div className="st-portfolio st-zoom">

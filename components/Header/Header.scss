@@ -58,6 +58,7 @@
 
       > li {
         margin-right: 40px;
+        
 
         &:last-child {
           margin-right: 45px;
@@ -72,8 +73,13 @@
           font-family: "Roboto", sans-serif;
           font-weight: 500;
           cursor: pointer;
+          transition: color 0.3s ease;
 
           &.active {
+            color: $base-color1;
+          }
+
+          &:hover {
             color: $base-color1;
           }
         }
@@ -91,7 +97,7 @@
         position: absolute;
         height: 11px;
         width: 1px;
-        background: white;
+        background: $base-color3;
         left: 0px;
       }
 
@@ -175,9 +181,22 @@
         display: none;
       }
 
+      // Mobile navigation links
+      li a,
+      > li > a,
       a {
         display: block;
         padding: 8px 20px;
+        color: $base-color3 !important;
+        transition: color 0.3s ease;
+
+        &.active {
+          color: $base-color1 !important;
+        }
+
+        &:hover {
+          color: $base-color1 !important;
+        }
       }
     }
 
@@ -204,8 +223,9 @@
     span:after {
       width: 100%;
       height: 2px;
-      background-color: #666;
+      background-color: $base-color3;
       display: block;
+      transition: background-color 0.3s ease;
     }
 
     span {
@@ -244,12 +264,14 @@
         margin-top: 0;
         transform: rotate(45deg);
         transition-delay: 0s, 0.2s;
+        background-color: $base-color1;
       }
 
       &:after {
         margin-top: 0;
         transform: rotate(-45deg);
         transition-delay: 0s, 0.2s;
+        background-color: $base-color1;
       }
     }
   }
@@ -300,6 +322,16 @@
 
           > a {
             padding: 10px 0;
+            color: $base-color3;
+            transition: color 0.3s ease;
+
+            &.active {
+              color: $base-color1;
+            }
+
+            &:hover {
+              color: $base-color1;
+            }
           }
         }
       }

@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useRef } from 'react';
 import './Skill.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
 
@@ -21,6 +22,38 @@ interface SkillProps {
 
 export default function Skill({ data }: SkillProps) {
   const { title, text, skills } = data;
+  const progressBarsRef = useRef<(HTMLDivElement | null)[]>([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const progressBar = entry.target as HTMLDivElement;
+            const progress = progressBar.getAttribute('data-progress');
+            if (progress) {
+              const innerBar = progressBar.querySelector('.st-progressbar-in') as HTMLDivElement;
+              if (innerBar) {
+                innerBar.style.width = `${progress}%`;
+              }
+            }
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    const currentBars = progressBarsRef.current;
+    currentBars.forEach((bar) => {
+      if (bar) observer.observe(bar);
+    });
+
+    return () => {
+      currentBars.forEach((bar) => {
+        if (bar) observer.unobserve(bar);
+      });
+    };
+  }, [skills]);
   return (
     <section className="st-dark-bg">
       <div className="st-height-b100 st-height-lg-b80"></div>
@@ -60,8 +93,14 @@ export default function Skill({ data }: SkillProps) {
                       {element.progress}
                     </div>
                   </div>
-                  <div className="st-progressbar" data-progress="95">
-                    <div className="st-progressbar-in "></div>
+                  <div 
+                    className="st-progressbar"
+                    ref={(el) => {
+                      progressBarsRef.current[index] = el;
+                    }}
+                    data-progress={element.progress.replace('%', '')}
+                  >
+                    <div className="st-progressbar-in"></div>
                   </div>
                   <div className="st-height-b30 st-height-lg-b20"></div>
                 </div>

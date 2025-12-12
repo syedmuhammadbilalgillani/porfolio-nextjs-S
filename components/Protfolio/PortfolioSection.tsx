@@ -11,6 +11,7 @@ interface PortfolioItem {
   imgLinkLg: string;
   title: string;
   subTitle: string;
+  link?: string;
   effect?: string;
   duration?: string;
   delay?: string;
@@ -27,8 +28,8 @@ export default function PortfolioSection({ data }: PortfolioSectionProps) {
   const [modal, setModal] = useState(false);
   const [tempData, setTempData] = useState<string[]>([]);
 
-  const getData = (imgLink: string, title: string, subTitle: string) => {
-    const tempDataArray = [imgLink, title, subTitle];
+  const getData = (imgLink: string, title: string, subTitle: string, link?: string) => {
+    const tempDataArray = [imgLink, title, subTitle, link || ''];
     setTempData((item) => [1, ...tempDataArray] as string[]);
     setModal(true);
   };
@@ -90,6 +91,7 @@ export default function PortfolioSection({ data }: PortfolioSectionProps) {
           img={tempData[1]}
           title={tempData[2]}
           subTitle={tempData[3]}
+          link={tempData[4]}
           modalClose={modalClose}
         />
       ) : (

@@ -6,10 +6,11 @@ interface ModalProps {
   img: string;
   title: string;
   subTitle: string;
+  link?: string;
   modalClose: () => void;
 }
 
-export default function Modal({ img, title, subTitle, modalClose }: ModalProps) {
+export default function Modal({ img, title, subTitle, link, modalClose }: ModalProps) {
   const modalStyle = {
     backgroundColor: 'rgba(0,0,0,0.8)',
     display: 'block',
@@ -31,6 +32,19 @@ export default function Modal({ img, title, subTitle, modalClose }: ModalProps) 
               <img src={img} alt={title} />
             </div>
             <p className="modal-subtitle">{subTitle}</p>
+            {link && (
+              <div className="st-flex-center" style={{ marginTop: '20px' }}>
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="st-btn st-style1 st-color1"
+                  style={{ textDecoration: 'none', display: 'inline-block' }}
+                >
+                  View Live Project
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>

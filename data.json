@@ -1,18 +1,18 @@
 {
   "heroData": {
     "homeThreeHero": {
-      "imgAuthor": "/images/section/hero-img.png",
+      "imgAuthor": "/images/background/profile.jpeg",
       "bgImgLink": "/images/background/hero-bg-1.jpg",
       "title": "Hi, I am <span>Muhammad Sarfaraz</span>",
-      "text": "I am an AI Developer specializing in building intelligent solutions and cutting-edge applications. <br>I create innovative AI-powered systems with clean code and modern design principles."
+      "text": "I am a PhD Scholar, Microsoft International Certified AI Developer, and the CEO of SoftechSol. With over 7 years of experience in web development, I provide high-quality services in Web Development, App Development, Social Media Marketing, and AI Development."
     }
   },
   "aboutData": {
-    "imgLink": "/images/section/about.png",
+    "imgLink": "/images/section/about.jpeg",
     "cvPdf": "/images/Resume.pdf",
     "title": "Hi There! I'm Muhammad Sarfaraz",
-    "subtitle": "AI Developer",
-    "text": "I am an AI Developer with a strong focus on digital branding and intelligent solutions. I specialize in building AI-powered applications that attract, inspire, and motivate people, creating meaningful connections and delivering favorable impacts through cutting-edge technology.",
+    "subtitle": "Full Stack Developer | AI Specialist | Graphic Designer | Social Media Marketing Expert | Cloud Computing Specialist",
+    "text": "I am a PhD Scholar, Microsoft International Certified AI Developer, and the CEO of SoftechSol. With over 7 years of experience in web development, I provide high-quality services in Web Development, App Development, Social Media Marketing, and AI Development.",
     "details": [
       {
         "title": "Phone",
@@ -24,7 +24,7 @@
       },
       {
         "title": "From",
-        "info": "Sir Syed Hall, UET Lahore."
+        "info": "RT Hostel, UET Lahore."
       },
       {
         "title": "Language",
@@ -90,49 +90,56 @@
   },
   "skillData": {
     "title": "All the skills that I have in that field of work are mentioned.",
-    "text": "As an AI Developer, I specialize in building intelligent solutions using machine learning and modern web technologies. My expertise spans from low-level programming to high-level AI applications, enabling me to create comprehensive and innovative solutions.",
+    "text": "As a Full Stack Developer, AI Specialist, and CEO of SoftechSol with over 7 years of experience, I bring expertise across web development, AI/ML, graphic design, social media marketing, and cloud computing. My diverse skill set enables me to deliver comprehensive digital solutions.",
     "skills": [
       {
-        "title": "Python & AI/ML",
-        "progress": "90%",
+        "title": "Full Stack Development",
+        "progress": "92%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
       },
       {
-        "title": "JavaScript",
-        "progress": "85%",
+        "title": "AI & Machine Learning",
+        "progress": "90%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
       },
       {
-        "title": "C/C++",
-        "progress": "80%",
+        "title": "Web Development",
+        "progress": "95%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"
       },
       {
-        "title": "HTML & CSS",
-        "progress": "85%",
+        "title": "App Development",
+        "progress": "88%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "500"
       },
       {
-        "title": "TensorFlow & OpenCV",
-        "progress": "75%",
+        "title": "Graphic Design",
+        "progress": "85%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "600"
       },
       {
-        "title": "Problem Solving",
+        "title": "Social Media Marketing",
         "progress": "90%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "700"
+      },
+      {
+        "title": "Cloud Computing",
+        "progress": "87%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "800"
       }
     ]
   },
@@ -141,8 +148,9 @@
       {
         "imgLink": "./images/portfolio/portfolio1.jpg",
         "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "TensorFlow.js - Machine Learning in Browser",
+        "subTitle": "AI/ML / Web Development",
+        "link": "https://www.tensorflow.org/js",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
@@ -150,8 +158,9 @@
       {
         "imgLink": "./images/portfolio/portfolio2.jpg",
         "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "Google Cloud Platform - Cloud Solutions",
+        "subTitle": "Cloud Computing / Full Stack",
+        "link": "https://cloud.google.com",
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
@@ -159,8 +168,9 @@
       {
         "imgLink": "./images/portfolio/portfolio3.jpg",
         "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "Next.js - React Framework",
+        "subTitle": "Web Development / Full Stack",
+        "link": "https://nextjs.org",
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"
@@ -168,8 +178,9 @@
       {
         "imgLink": "./images/portfolio/portfolio4.jpg",
         "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "OpenCV.js - Computer Vision",
+        "subTitle": "AI/ML / Image Processing",
+        "link": "https://docs.opencv.org/4.x/d5/d10/tutorial_js_root.html",
         "effect": "fade-up",
         "duration": "500",
         "delay": "500"
@@ -177,8 +188,9 @@
       {
         "imgLink": "./images/portfolio/portfolio5.jpg",
         "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "React Native - Mobile App Development",
+        "subTitle": "App Development / Cross-Platform",
+        "link": "https://reactnative.dev",
         "effect": "fade-up",
         "duration": "500",
         "delay": "600"
@@ -186,164 +198,12 @@
       {
         "imgLink": "./images/portfolio/portfolio6.jpg",
         "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "Firebase - Backend as a Service",
+        "subTitle": "Cloud Computing / Full Stack",
+        "link": "https://firebase.google.com",
         "effect": "fade-up",
         "duration": "500",
         "delay": "700"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio1.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "200"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio2.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "300"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio3.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "400"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio4.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "500"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio5.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "600"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio6.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "700"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio1.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "200"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio2.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "300"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio3.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "400"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio4.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "500"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio5.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "600"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio6.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "700"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio1.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "200"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio2.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "300"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio3.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "400"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio4.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "500"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio5.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "600"
       }
     ]
   },
@@ -532,7 +392,6 @@
     "text": "I'm always open to new opportunities and collaborations. Feel free to reach out to me through the contact form or my social profiles. Let's build something amazing together!"
   },
   "socialData": [
- 
     {
       "icon": "github",
       "title": "Github",
