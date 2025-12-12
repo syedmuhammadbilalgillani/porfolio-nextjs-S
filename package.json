@@ -9,17 +9,32 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@iconify/react": "^6.0.2",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.8",
+    "gsap": "^3.14.1",
+    "html-react-parser": "^5.2.10",
+    "install": "^0.13.0",
     "next": "16.0.10",
     "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react-dom": "19.2.1",
+    "react-scroll": "^1.9.3",
+    "react-slick": "^0.31.0",
+    "react-water-wave": "^2.0.1",
+    "sass": "^1.96.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-scroll": "^1.8.10",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
+    "i": "^0.3.7",
+    "npm": "^11.7.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

@@ -1,0 +1,47 @@
+'use client';
+
+import { Icon } from '@iconify/react';
+
+interface SinglePortfolioProps {
+  data: {
+    imgLink: string;
+    imgLinkLg: string;
+    title: string;
+    subTitle: string;
+    effect?: string;
+    duration?: string;
+    delay?: string;
+  };
+  getData: (imgLink: string, title: string, subTitle: string) => void;
+}
+
+export default function SinglePortfolio({ data, getData }: SinglePortfolioProps) {
+  const { imgLink, imgLinkLg, title, subTitle, effect, duration, delay } = data;
+
+  return (
+    <div
+      className="col-lg-4 col-md-6"
+      data-aos={effect}
+      data-aos-duration={duration}
+      data-aos-delay={delay}
+    >
+      <div
+        className="st-portfolio-single st-style1"
+        onClick={() => getData(imgLinkLg, title, subTitle)}
+      >
+        <div className="st-portfolio-item">
+          <div className="st-portfolio st-zoom">
+            <div className="st-portfolio-img st-zoom-in">
+              <img src={imgLink} alt="portfolio" />
+            </div>
+            <div className="st-portfolio-item-hover">
+              <Icon icon="mdi:plus-circle" />
+              <h5>{title}</h5>
+              <p>{subTitle}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,566 @@
+{
+  "heroData": {
+    "homeThreeHero": {
+      "imgAuthor": "/images/section/hero-img.png",
+      "bgImgLink": "/images/background/hero-bg-1.jpg",
+      "title": "Hi, I am <span>Muhammad Sarfaraz</span>",
+      "text": "I am an AI Developer specializing in building intelligent solutions and cutting-edge applications. <br>I create innovative AI-powered systems with clean code and modern design principles."
+    }
+  },
+  "aboutData": {
+    "imgLink": "/images/section/about.png",
+    "cvPdf": "/images/Resume.pdf",
+    "title": "Hi There! I'm Muhammad Sarfaraz",
+    "subtitle": "AI Developer",
+    "text": "I am an AI Developer with a strong focus on digital branding and intelligent solutions. I specialize in building AI-powered applications that attract, inspire, and motivate people, creating meaningful connections and delivering favorable impacts through cutting-edge technology.",
+    "details": [
+      {
+        "title": "Phone",
+        "info": " +923009749672"
+      },
+      {
+        "title": "Email",
+        "info": "sarfarazkhanwattoo@gmail.com"
+      },
+      {
+        "title": "From",
+        "info": "Sir Syed Hall, UET Lahore."
+      },
+      {
+        "title": "Language",
+        "info": "English, Urdu, Punjabi & Saraiki."
+      },
+      {
+        "title": "Freelance",
+        "info": "Available"
+      }
+    ]
+  },
+  "serviceData": {
+    "services": [
+      {
+        "imgLink": "./images/icon/icon1.png",
+        "title": "AI Development",
+        "text": "Building intelligent solutions using machine learning and AI technologies. Specializing in Python, TensorFlow, and OpenCV to create innovative AI-powered applications.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "./images/icon/icon2.png",
+        "title": "Web Development",
+        "text": "Creating responsive and interactive web applications using JavaScript, HTML, and CSS. Delivering clean code and pixel-perfect designs with modern web technologies.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "./images/icon/icon3.png",
+        "title": "Software Development",
+        "text": "Developing robust applications using C, C++, and other programming languages. Building efficient solutions with clean architecture and best practices.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "./images/icon/icon4.png",
+        "title": "Problem Solving",
+        "text": "Applying creative problem-solving approaches to tackle complex challenges. Using algorithmic thinking and innovative solutions to deliver effective results.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "imgLink": "./images/icon/icon5.png",
+        "title": "Team Leadership",
+        "text": "Leading teams with discipline and collaboration. Fostering teamwork and driving projects to success through effective communication and hard work.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "imgLink": "./images/icon/icon6.png",
+        "title": "Full-Stack Solutions",
+        "text": "Delivering end-to-end solutions from frontend to backend. Combining AI capabilities with web technologies to create comprehensive digital experiences.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      }
+    ]
+  },
+  "skillData": {
+    "title": "All the skills that I have in that field of work are mentioned.",
+    "text": "As an AI Developer, I specialize in building intelligent solutions using machine learning and modern web technologies. My expertise spans from low-level programming to high-level AI applications, enabling me to create comprehensive and innovative solutions.",
+    "skills": [
+      {
+        "title": "Python & AI/ML",
+        "progress": "90%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "title": "JavaScript",
+        "progress": "85%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "title": "C/C++",
+        "progress": "80%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "title": "HTML & CSS",
+        "progress": "85%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "title": "TensorFlow & OpenCV",
+        "progress": "75%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "title": "Problem Solving",
+        "progress": "90%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      }
+    ]
+  },
+  "portfolioData": {
+    "portfolioItems": [
+      {
+        "imgLink": "./images/portfolio/portfolio1.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio2.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio3.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio4.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio5.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio6.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio1.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio2.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio3.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio4.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio5.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio6.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio1.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio2.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio3.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio4.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio5.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio6.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio1.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio2.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio3.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio4.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "imgLink": "./images/portfolio/portfolio5.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
+        "title": "Product Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      }
+    ]
+  },
+  "blogData": {
+    "useFor": "blog",
+    "sliderSetting": {
+      "infinite": true,
+      "speed": 500,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "arrows": false,
+      "responsive": [
+        {
+          "breakpoint": 991,
+          "settings": {
+            "slidesToShow": 2,
+            "autoplay": true
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1,
+            "autoplay": true
+          }
+        }
+      ]
+    },
+    "informations": [
+      {
+        "imgLink": "./images/blog/blog1.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "./images/blog/blog2.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "./images/blog/blog3.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "Trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "./images/blog/blog1.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "./images/blog/blog2.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "The latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "./images/blog/blog3.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      }
+    ]
+  },
+  "reviewData": {
+    "useFor": "review",
+    "sliderSetting": {
+      "infinite": true,
+      "speed": 500,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "arrows": false,
+      "responsive": [
+        {
+          "breakpoint": 991,
+          "settings": {
+            "slidesToShow": 2,
+            "autoplay": true
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1,
+            "autoplay": true
+          }
+        }
+      ]
+    },
+    "informations": [
+      {
+        "imgLink": "./images/client/client1.png",
+        "title": "Richard Miles",
+        "designation": "Chairman",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "./images/client/client2.png",
+        "title": "Vesta Shufelt",
+        "designation": "Executive Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "./images/client/client3.png",
+        "title": "Joseph Alves",
+        "designation": "Managing Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "./images/client/client1.png",
+        "title": "Richard Miles",
+        "designation": "Chairman",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "./images/client/client2.png",
+        "title": "Vesta Shufelt",
+        "designation": "Executive Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "./images/client/client3.png",
+        "title": "Joseph Alves",
+        "designation": "Managing Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      }
+    ]
+  },
+  "resumeData": {
+    "experienceTitle": "Experience",
+    "experience": [
+      {
+        "title": "Final Year Project - E-Commerce Website",
+        "duration": "2022",
+        "subTitle": "MNS-University of Agriculture, Multan",
+        "text": "A web application that manages a complete online Shop including stock records, purchases, and sales. Tools and Techniques: Python 3, OpenCV, TensorFlow."
+      },
+      {
+        "title": "Term Projects",
+        "duration": "2018 - 2022",
+        "subTitle": "MNS-University of Agriculture, Multan",
+        "text": "• Exams Schedule Generator Using Genetic Algorithm (Python) • Tic-Tac Game (Unity) • Mobile Application for Online Store (Java, Dart) • Covid Model (Blender) • Library Management System (C#) • Chess Game (C++) • Student Form (Java) • Scientific Calculator (C)"
+      },
+      {
+        "title": "Honors & Achievements",
+        "duration": "2018 - 2022",
+        "subTitle": "MNS-University of Agriculture, Multan",
+        "text": "• Runner up in On-spot programming Organized by ICT club at MNSUAM in 2018 • Awarded Merit Base Scholarship throughout the BS degree • Studentship (Paid Program) from Sep 2021 to August 2022 • President of Mosigala Beats (Music Society) at MNSUAM from Sep 2020 to Aug 2021"
+      }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "title": "Becholar of Computer Science",
+        "duration": "2022",
+        "subTitle": "MNS-University of Agriculture, Multan",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+      },
+      {
+        "title": "FSC Pre-Engineering",
+        "duration": "2018",
+        "subTitle": "Punjab Group of Colleges Dunyapur.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+      },
+      {
+        "title": "Matriculation",
+        "duration": "2015",
+        "subTitle": "Hannan Public School, Dunyapur",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+      }
+    ]
+  },
+  "contactData": {
+    "formTitle": "Get in Touch",
+    "title": "Contact Info",
+    "subTitle": "Visite my social profile and get connected",
+    "text": "I'm always open to new opportunities and collaborations. Feel free to reach out to me through the contact form or my social profiles. Let's build something amazing together!"
+  },
+  "socialData": [
+ 
+    {
+      "icon": "github",
+      "title": "Github",
+      "link": "/"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "link": "/"
+    },
+    {
+      "icon": "linkedin",
+      "title": "LinkedIn",
+      "link": "/"
+    }
+  ],
+  "socialData2": [
+    {
+      "icon": "facebook-f",
+      "link": "/facebook"
+    },
+    {
+      "icon": "twitter",
+      "link": "/twitter"
+    },
+    {
+      "icon": "github",
+      "link": "/github"
+    }
+  ]
+}
