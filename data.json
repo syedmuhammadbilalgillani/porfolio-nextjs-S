@@ -194,6 +194,26 @@
         "effect": "fade-up",
         "duration": "500",
         "delay": "600"
+      },
+      {
+        "imgLink": "/images/projects/addone.png",
+        "imgLinkLg": "/images/projects/addone.png",
+        "title": "Data-driven paid marketing campaigns",
+        "subTitle": "ROI focused meta Ads campaign to grow your small business to scale it",
+        "link": "",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "imgLink": "/images/projects/addtwo.png",
+        "imgLinkLg": "/images/projects/addtwo.png",
+        "title": "Increased reach and messaging conversations",
+        "subTitle": "Increasing reach and  getting more Messaging conversations for businesses with a limited budget",
+        "link": "",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
       }
     ]
   },
