@@ -214,6 +214,26 @@
         "effect": "fade-up",
         "duration": "500",
         "delay": "600"
+      },
+      {
+        "imgLink": "/images/projects/figmaone.png",
+        "imgLinkLg": "/images/projects/figmaone.png",
+        "title": "Figma Design",
+        "subTitle": "Designing the UI/UX of the furniture website",
+        "link": "",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "imgLink": "/images/projects/figmatwo.png",
+        "imgLinkLg": "/images/projects/figmatwo.png",
+        "title": "Figma Design",
+        "subTitle": "Designing the UI/UX of the company portfolio website",
+        "link": "",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
       }
     ]
   },
