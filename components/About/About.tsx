@@ -23,6 +23,16 @@ interface AboutProps {
 
 export default function About({ data }: AboutProps) {
   const { imgLink, title, subtitle, text, details, cvPdf } = data;
+  
+  // Generate dynamic filename with current date
+  const getDynamicFileName = () => {
+    const currentDate = new Date();
+    const year = currentDate.getFullYear();
+    const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+    const day = String(currentDate.getDate()).padStart(2, '0');
+    return `muhammad-sarafaraz-resume-${year}-${month}-${day}.pdf`;
+  };
+
   return (
     <section id="about" className="st-about-wrap">
       <div className="st-height-b100 st-height-lg-b80"></div>
@@ -66,7 +76,7 @@ export default function About({ data }: AboutProps) {
                     <a
                       className="st-btn st-style1 st-color1"
                       href={cvPdf}
-                      download
+                      download={getDynamicFileName()}
                     >
                       Download CV
                     </a>
